@@ -14,6 +14,17 @@ module.exports = {
           500: '#000000',
         },
       },
+      animation: {
+        'spin-slow': 'spin 10s linear infinite',
+        appear: 'appear 5s forwards',
+        disappear: 'disappear 5s forwards',
+      },
+      keyframes: {
+        spin: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+      },
     },
   },
   plugins: [],

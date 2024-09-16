@@ -1,0 +1,43 @@
+.circle-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .circle-container .circle {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .circle-container .circle:nth-child(1) {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .circle-container .circle:nth-child(2) {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  
+  .circle-container .circle:nth-child(3) {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .circle-container .circle:nth-child(4) {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  

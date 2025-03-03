@@ -1,0 +1,24 @@
+.about-me-heading {
+  border-radius: 30% 0 30% 0;
+  border-width: 4px;
+  width: fit-content;
+}
+
+.about-me {
+  position: relative;
+  background-image: url(../assets/cyan1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
+.about-me::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85); /* Adjust the color and opacity here */
+  z-index: -1;
+}

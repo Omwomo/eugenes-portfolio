@@ -19,7 +19,7 @@ const AboutMe = () => (
       <div className="flex flex-col md:flex-row items-center">
         <div className="text-start">
           <h2 className="text-4xl font-bold mb-8 border-teal-400 p-4 bg-custom-500 about-me-heading backdrop-opacity-80">About Me</h2>
-          <div className="md:w-2/3 space-y-6 text-start p-6 rounded-3xl backdrop-opacity-80">
+          <div className="md:w-2/3 space-y-3 text-start p-6 rounded-3xl backdrop-opacity-80">
             <span className="text-teal-400 text-sm">&lt;p&gt;</span>
             <p>
               <span className="text-teal-400 text-xl">Hello!</span>

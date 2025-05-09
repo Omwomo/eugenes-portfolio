@@ -1,3 +1,7 @@
+.h-screen {
+  height: 70vh;
+}
+
 .circle-container {
     position: absolute;
     top: 50%;
